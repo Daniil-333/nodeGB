@@ -26,7 +26,14 @@ const emitter = new EventEmitter();
 
 let argv = process.argv.slice(2).map(arg => {
     let arr = arg.split('-').reverse();
-    return arg = `${arr[0]}-${arr[1]}-${arr[2]} ${arr[3]}:00:00 GMT`;
+    arg = `${arr[0]}-${arr[1]}-${arr[2]} ${arr[3]}:00:00 GMT`;
+
+    if(new Date(arg) < Date.now() + (5*60*60*1000)) {
+        console.log('Дата не может быть меньше текущей');
+        process.exit();
+    }
+
+    return arg
 });
 
 const run = async () => {
