@@ -21,7 +21,7 @@ const emitter = new EventEmitter();
 
 
 /** 
- * node index.js 21-31-01-2023 25-02-02-2023
+ * node timer.js 21-31-01-2023 25-02-02-2023
 */
 
 let argv = process.argv.slice(2).map(arg => {
