@@ -1,0 +1,15 @@
+{
+  "name": "nodegb",
+  "version": "1.0.0",
+  "description": "node_js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "author": "Daniil Yakovlev",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "moment": "^2.29.4"
+  }
+}
