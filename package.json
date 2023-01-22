@@ -4,11 +4,15 @@
   "description": "node_js",
   "main": "index.js",
   "scripts": {
-    "dev": "node index.js"
+    "dev": "node cli.js"
+  },
+  "bin": {
+    "reader": "cli.js"
   },
   "author": "Daniil Yakovlev",
   "license": "ISC",
   "dependencies": {
+    "inquirer": "^8.2.0",
     "colors": "^1.4.0",
     "moment": "^2.29.4"
   }
