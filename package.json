@@ -12,8 +12,9 @@
   "author": "Daniil Yakovlev",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^8.2.0",
     "colors": "^1.4.0",
-    "moment": "^2.29.4"
+    "inquirer": "^8.2.0",
+    "moment": "^2.29.4",
+    "yargs": "^17.6.2"
   }
 }
