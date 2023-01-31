@@ -1,0 +1,20 @@
+{
+  "name": "nodegb",
+  "version": "1.0.0",
+  "description": "node_js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node cli.js"
+  },
+  "bin": {
+    "reader": "cli.js"
+  },
+  "author": "Daniil Yakovlev",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "^8.2.0",
+    "moment": "^2.29.4",
+    "yargs": "^17.6.2"
+  }
+}
